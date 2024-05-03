@@ -78,7 +78,7 @@ function WelcomePage() {
                                     <p>
                                         {val.content}
                                     </p>
-                                    <div className='mt-5'>
+                                    <div className='mt-5 flex items-center gap-2'>
                                         <Link className='bg-gray-500 text-white border py-2 px-3 rounded-md text-lg my-2' href={`/edit/${val._id}`}>Edit</Link>
                                         <DeleteBtn id={val._id}/>
                                     </div>
